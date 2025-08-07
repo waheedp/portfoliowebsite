@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "waheed.uxer@gmail.com"; /** DON'T FORGET TO PUT YOUR EMAIL HERE **/
+        $recipient = "xuwelkhan@gmail.com"; /** DON'T FORGET TO PUT YOUR EMAIL HERE **/
 
         // Set the email subject.
         $subject = "ProCv Main New message from $name";
