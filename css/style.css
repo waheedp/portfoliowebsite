@@ -1006,9 +1006,14 @@ span.social-text{
 }
 .skills-col{
 	display: block;
+	border-radius: 12px;
 }
 .skills-col li{
 	margin-bottom: 14px;
+}
+.my-equal-height-container {
+  display: flex;
+  flex-wrap: wrap; /* Important for wrapping columns on smaller screens */
 }
 
 /* --------- 3.award area ---------*/
