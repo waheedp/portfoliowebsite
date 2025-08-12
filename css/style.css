@@ -1004,6 +1004,12 @@ span.social-text{
 .progress-circular {
 	text-align: center;
 }
+.skills-col{
+	display: block;
+}
+.skills-col li{
+	margin-bottom: 14px;
+}
 
 /* --------- 3.award area ---------*/
 .award-content {
