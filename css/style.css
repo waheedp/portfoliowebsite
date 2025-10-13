@@ -1010,6 +1010,8 @@ span.social-text{
 }
 .skills-col li{
 	margin-bottom: 14px;
+	list-style-type: disc; /* Added by me */
+	margin-left: 16px;
 }
 .my-equal-height-container {
   display: flex;
