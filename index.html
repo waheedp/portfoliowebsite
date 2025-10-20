@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-
+    <link rel="stylesheet" href="css/clipboard-styles.css">
 
 </head>
 
@@ -2532,8 +2532,13 @@
                     <div class="container p-0">
                         <div
                             class="content-wrapper-padding white-bg content-wrapper-padding white-bg border-radius12  position-relative">
-
-                            <div class="row contact-info-content mt-2 d-flex justify-content-center">
+                            <div class="row justify-content-center text-center">
+                                <p class="f-500">
+                                    Have a project in mind or just want to chat about your ideas?<br />
+                                    I'm only an email or call away. Let's make something great together.
+                                </p>
+                            </div>
+                            <div class="row contact-info-content mt-40 d-flex justify-content-center">
                                 <!-- <div class="col-xl-4  col-lg-4 col-md-4 col-sm- col- pr-sm-0">
                                     <div
                                         class="contact-location text-md-center text-lg-left mb-25 transition-3 d-lg-flex d-flex d-md-block  align-items-center">
@@ -2554,15 +2559,20 @@
                                             <span class="theme-color d-inline-block"><i class="fas fa-phone"></i></span>
                                         </div><!-- /contact-icon -->
                                         <div class="contact-text">
-                                            <h4 class="f-700 mb-2">Phone</h4>
-                                            <p class="mb-0">
-                                                <a class="secondary-color2 primary-hover d-block"
-                                                    href="#">+91-9619647486</a>
-                                            </p>
+                                            <h4 class="f-700 mb-15">Phone</h4>
+                                            <div class="mb-0">
+                                                <span class="secondary-color2 primary-hover d-flex align-items-center icon-cf">
+                                                    +91-9619647486 
+                                                    <img class="mt--5 ml-8 span-copy-link border-radius8" data-value="+91-9619647486" src="fonts/fa-icons/copy.svg" height="30" />
+                                                </span>
+                                            </div>
                                         </div>
                                     </div><!-- /contact-phone -->
                                 </div><!-- /col -->
-                                <div class="col-xl-4  col-lg-4  col-md-4 col-sm- col-">
+                            </div><!-- /row -->
+                            
+                            <div class="row contact-info-content mt-2 d-flex justify-content-center">
+                                <div class="col-xl-4 col-lg-4  col-md-4 col-sm- col-">
                                     <div
                                         class="contact-email s-contact text-md-center text-lg-left mb-25 transition-3 d-lg-flex d-flex d-md-block align-items-center">
                                         <div class="contact-icon d-inline-block text-center neutral-bg mr-25">
@@ -2570,75 +2580,19 @@
                                                     class="fas fa-envelope"></i></span>
                                         </div><!-- /contact-icon -->
                                         <div class="contact-text">
-                                            <h4 class="f-700 mb-2">Email</h4>
-                                            <p class="mb-0">
-                                                <a class="secondary-color2 primary-hover d-block"
-                                                    href="#">waheed.uxer@gmail.com</a>
-                                            </p>
+                                            <h4 class="f-700 mb-15">Email</h4>
+                                            <div class="mb-0">
+                                                <span class="secondary-color2 primary-hover d-flex align-items-center icon-cf">
+                                                    waheed.uxer@gmail.com 
+                                                    <img class="mt--5 ml-8 span-copy-link border-radius8" data-value="waheed.uxer@gmail.com" src="fonts/fa-icons/copy.svg" height="30" />
+                                                </span>
+                                            </div>
                                         </div>
                                     </div><!-- /contact-email -->
                                 </div><!-- /col -->
-                            </div><!-- /row -->
+                            </div>
+                            <!-- Deleted contact form and map -->
 
-                            <div class="row justify-content-center">
-                                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
-                                    <div class="contact-form-wrapper text-center mt-25 mb-lg-5 mb-md-4">
-                                        <h2 class="mb-55">Send me a message</h2>
-                                        <form action="php/mail.php" method="POST" id="contact-form">
-                                            <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12">
-                                                    <input
-                                                        class="name w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5"
-                                                        type="text" name="inputName" id="inputName"
-                                                        placeholder="Your Name" required>
-                                                    <!-- /name -->
-                                                </div><!-- /col -->
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12">
-                                                    <input
-                                                        class="email w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5"
-                                                        type="email" name="inputEmail" id="inputEmail"
-                                                        placeholder="Your Email" required>
-                                                    <!-- /email -->
-                                                </div><!-- /col -->
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12">
-                                                    <input
-                                                        class="phone w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5"
-                                                        type="text" name="inputPhone" id="inputPhone"
-                                                        placeholder="Your Phone" required>
-                                                    <!-- /phone -->
-                                                </div><!-- /col -->
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12">
-                                                    <input
-                                                        class="subject w-100 primary-border pl-20 pt-20 pb-15 pr-10 bg-white border-radius5"
-                                                        type="text" name="inputSubject" id="inputSubject"
-                                                        placeholder="Your Subject" required>
-                                                    <!-- /subject -->
-                                                </div><!-- /col -->
-                                            </div><!-- /row -->
-                                            <div class="row ">
-                                                <div
-                                                    class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pl-12 pr-12 mb-12">
-                                                    <textarea
-                                                        class="massage w-100 primary-border pl-20 pt-20 pr-10 bg-white border-radius5"
-                                                        name="inputMessage" id="inputMessage"
-                                                        placeholder="Write your message here" required></textarea>
-                                                </div><!-- /col -->
-                                            </div><!-- /row -->
-                                            <div class="my-btn">
-                                                <button class="btn w-100 d-inline-block theme-bg" type="submit"
-                                                    name="submit">Send Message</button>
-                                            </div>
-                                        </form>
-                                        <p class="form-message"></p>
-                                    </div><!-- /contact-form -->
-                                </div><!-- /col -->
-                            </div><!-- /row -->
-
-                            <div class="row no-gutters over-hidden neutral-bg mt-30 mb-10">
-                                <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
-                                    <div class="map-wrapper border-radius12" id="mapwrapper"> </div>
-                                </div><!-- /col -->
-                            </div><!-- /row -->
                         </div><!-- /content-wrapper-padding -->
                     </div><!-- /container -->
                 </div><!-- /contact-page -->
@@ -2720,6 +2674,7 @@
     <script src="js/jquery.meanmenu.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/copy_clipboard.js"></script>
 
 </body>
 

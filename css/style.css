@@ -1664,3 +1664,6 @@ span.social-text{
 	color: #fff;
 	background: var(--main-color);
 }
+.icon-cf img:hover{
+          background-color: #e5e5e5;
+     }
